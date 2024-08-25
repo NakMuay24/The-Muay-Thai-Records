@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente el contenido */
+}
+
+/* Header Styles */
+header {
+    background: #1c1c1c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 5px solid #e67e22;
+    width: 100%; /* Asegura que el header ocupe todo el ancho de la pantalla */
+}
+
+/* Navigation Styles */
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Ajuste para centrar contenido */
+    width: 100%; /* Asegura que las secciones ocupen el ancho disponible */
+}
+
+/* Details Section Styles */
+#details {
+    text-align: center;
+}
+
+#details h2 {
+    margin-top: 0;
+}
+
+/* Fighter Styles */
+.fighter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fighter img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.fighter div {
+    max-width: 600px;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px; /* Limitar el ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Footer Styles */
+footer {
+    background: #1c1c1c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
